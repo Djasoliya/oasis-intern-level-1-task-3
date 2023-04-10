@@ -1,0 +1,81 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.nav1 ul li {
+  list-style: none;
+}
+.nav1 ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: rgb(111, 0, 255);
+  letter-spacing: 1px;
+  padding: 10px 40px 10px;
+  letter-spacing: 5px;
+}
+.nav1 ul {
+  display: flex;
+  padding: 13px 0px 13px 15px;
+}
+.nav1 ul li a:hover {
+  color: blue;
+  text-shadow: rgba(93, 32, 207, 0.8) 6px 8px 30px,
+    rgba(13, 11, 20, 0.62) -3px -6px 20px;
+}
+.nav1 {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 10px 15px 20px;
+  background-color: black;
+  width: 100%;
+}
+.conv1 {
+  background-color: blue;
+  height: 939px;
+}
+.conv11 {
+  background-color: rgb(159, 159, 167);
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  height: 400px;
+  width: 700px;
+  border-radius: 20px;
+}
+.conv11 h1 {
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  padding: 20px 0px 20px;
+}
+.conv111 label{
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 50px 0px 15px 100px;
+}
+.conv111 input{
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 8px 0px 8px 25px;
+  margin: 5px 0px 5px 100px;
+  border-radius: 20px;
+  width: 65%;
+}
+#res{
+  width: 30%;
+  padding: 10px 20px 10px 20px;
+  margin: 20px 0px 10px 26px;
+}
+button{
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 26px 10px 100px;
+    border-radius: 20px;
+    width: 30%;
+}
+
